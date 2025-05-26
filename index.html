@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Planner Monterrey - Eventos Exclusivos</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ==================================
+       ENCABEZADO Y NAVEGACIÓN PRINCIPAL
+       ================================== -->
+  <header class="encabezado">
+    <div class="contenedor-header">
+      <h1 class="logo">Sarai Alvarado <br>Event Planners</h1>
+
+          <!-- Botón hamburguesa -->
+    <button class="menu-toggle" id="menu-toggle">
+      ☰
+    </button>
+
+      <!-- Menú de navegación -->
+      <nav class="menu-navegacion">
+        <ul class="nav-lista">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#opiniones">Opiniones</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============================
+       SECCIÓN DE INICIO (HERO)
+       ============================ -->
+  <section id="inicio" class="seccion-inicio">
+    <div class="contenido-inicio">
+      <h2>Diseñamos momentos inolvidables</h2>
+      <p>Bodas, graduaciones, despedidas y pedidas de mano con estilo y elegancia.</p>
+      <a href="#contacto" class="btn-principal">Solicita tu evento</a>
+    </div>
+  </section>
+
+  <!-- ========================
+       SECCIÓN DE SERVICIOS
+       ======================== -->
+  <section id="servicios" class="seccion-servicios">
+    <div class="contenedor">
+      <h2>Servicios</h2>
+      <p>Organizamos eventos únicos, cuidando cada detalle.</p>
+      <!-- Aquí irán tarjetas de servicios con íconos o imágenes -->
+        <div class="grid-servicios">
+      <div class="servicio">
+        <h3>Bodas personalizadas</h3>
+        <p>Diseñamos la boda perfecta según tus deseos, estilo y presupuesto.</p>
+      </div>
+      <div class="servicio">
+        <h3>Despedidas de soltera</h3>
+        <p>Momentos inolvidables con amigas antes del gran día, con actividades especiales.</p>
+      </div>
+      <div class="servicio">
+        <h3>Graduaciones</h3>
+        <p>Organización profesional para eventos escolares, universitarios y empresariales.</p>
+      </div>
+      <div class="servicio">
+        <h3>Pedidas de mano</h3>
+        <p>Creamos el ambiente perfecto para que esa gran pregunta sea mágica e inolvidable.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       SECCIÓN DE GALERÍA
+       ======================== -->
+  <section id="galeria" class="seccion-galeria">
+    <div class="contenedor">
+      <h2>Galería</h2>
+      <p>Próximamente podrás ver nuestros mejores eventos.</p>
+      <!-- Galería con imágenes cuando estén disponibles -->
+        <div class="grid-galeria">
+      <img src="/Users/pc/Desktop/Sarai Alvarado Event Planners/imagenes/im2.jpeg" alt="Boda clasica" loading="lazy">
+      <img src="/Users/pc/Desktop/Sarai Alvarado Event Planners/imagenes/im3.jpeg" alt="Graduacion elegante" loading="lazy">
+      <img src="/Users/pc/Desktop/Sarai Alvarado Event Planners/imagenes/im4.jpeg" alt="Despedida de soltera" loading="lazy">
+      <img src="/Users/pc/Desktop/Sarai Alvarado Event Planners/imagenes/im5.jpeg" alt="Decoracion romantica" loading="lazy">
+      <img src="/Users/pc/Desktop/Sarai Alvarado Event Planners/imagenes/im6.jpeg" alt="Mesa de ambientacion" loading="lazy">
+      <img src="/Users/pc/Desktop/Sarai Alvarado Event Planners/imagenes/im7.jpeg" alt="Novios y pastel" loading="lazy">
+      
+    </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       SECCIÓN DE OPINIONES
+       ======================== -->
+  <section id="opiniones" class="seccion-opiniones">
+    <div class="contenedor">
+      <h2>Lo que dicen nuestros clientes</h2>
+      <!-- Aquí irán testimonios en tarjetas -->
+       <div class="opiniones-grid">
+      <div class="opinion">
+        <p>"Contratar a Eventos Exclusivos fue la mejor decisión. Se encargaron de todo y superaron nuestras expectativas."</p>
+        <h4>- Mariana G.</h4>
+      </div>
+      <div class="opinion">
+        <p>"Organizaron mi graduación con un nivel de detalle y elegancia impresionante. ¡Gracias por hacerlo inolvidable!"</p>
+        <h4>- Luis R.</h4>
+      </div>
+      <div class="opinion">
+        <p>"Mi pedida de mano fue mágica. El equipo fue discreto, profesional y muy creativo. ¡Totalmente recomendados!"</p>
+        <h4>- Andrea T.</h4>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       SECCIÓN DE CONTACTO
+       ======================== -->
+  <section id="contacto" class="seccion-contacto">
+    <div class="contenedor">
+      <h2>Contáctanos</h2>
+       <p>¿Tienes dudas o quieres cotizar tu evento? Escríbenos, estamos aquí para ayudarte.</p>
+      <!-- Formulario de contacto aquí -->
+    <div class="contacto-grid">
+      <!-- Formulario -->
+      <form action="https://formspree.io/f/mvgaggpd" method="POST" class="formulario">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo electrónico" required>
+        <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+        <button type="submit">Enviar mensaje</button>
+      </form>
+
+      <!-- Información de contacto -->
+      <div class="info-contacto">
+        <p><strong>Dirección:</strong> Monterrey, Nuevo León, México</p>
+        <p><strong>Teléfono:</strong> +52 81 1234 5678</p>
+        <p><strong>Email:</strong> info@eventosexclusivos.mx</p>
+        <p><strong>Instagram:</strong> @eventos.exclusivos</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       SECCIÓN DE BLOG
+       ======================== -->
+  <section id="blog" class="seccion-blog">
+    <div class="contenedor">
+      <h2>Blog <br> Últimas publicaciones</h2>
+      <p>Tips, inspiración y consejos para tu evento ideal.</p>
+      <!-- Artículos o entradas futuras -->
+
+    <div class="grid-blog">
+      <article class="entrada-blog">
+        <h3>5 consejos para planear tu boda soñada</h3>
+        <p>Desde la elección del lugar hasta los pequeños detalles que marcan la diferencia.</p>
+        <a href="#" class="btn-blog">Leer más</a>
+      </article>
+
+      <article class="entrada-blog">
+        <h3>Cómo organizar una despedida de soltera inolvidable</h3>
+        <p>Ideas creativas, temáticas y actividades que sorprenderán a la novia.</p>
+        <a href="#" class="btn-blog">Leer más</a>
+      </article>
+
+      <article class="entrada-blog">
+        <h3>Eventos elegantes sin romper tu presupuesto</h3>
+        <p>Tips para lograr un evento espectacular sin gastar de más.</p>
+        <a href="#" class="btn-blog">Leer más</a>
+      </article>
+    </div>
+
+    </div>
+  </section>
+
+  <!-- ========================
+       PIE DE PÁGINA
+       ======================== -->
+  <footer class="pie-pagina">
+    <div class="contenedor">
+      <p>&copy; 2025 Eventos Exclusivos | Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ========================
+       Script para el boton de hamburguesa en moviles
+       ======================== -->
+
+  <script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('menu');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('activo');
+  });
+</script>
+
+
+</body>
+</html>
