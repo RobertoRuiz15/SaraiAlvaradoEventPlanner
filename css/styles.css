@@ -62,7 +62,7 @@ body {
    ==================== */
 .seccion-inicio {
   height: 100vh; /* Toma toda la pantalla */
-  background-image: url('/Users/pc/Desktop/Sarai Alvarado Event Planners/imagenes/im1.jpg'); /* Puedes cambiar luego por una imagen */
+  background-image: url(../imagenes/im1.jpg) ; /* Puedes cambiar luego por una imagen */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
